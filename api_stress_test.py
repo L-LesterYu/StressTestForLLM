@@ -163,10 +163,10 @@ class APIStressTester:
 async def main():
     """主函数"""
     # API配置
-    url = "http://10.68.186.130:8080/v1/chat-messages"
+    url = "{APIurl}"
     
     headers = {
-        "Authorization": "Bearer app-iDGyLFqNoZeI309eQCbT7zbo",
+        "Authorization": "Bearer {APIkey}",
         "Content-Type": "application/json"
     }
     
